@@ -1,0 +1,184 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url('https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.formPages {
+  /* height: 60vh; */
+  /* max-width: 30%; */
+  margin: 2rem auto;
+}
+
+.page2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appHeading {
+  font-size: 5rem;
+  text-align: center;
+  margin: 5rem;
+}
+
+.formHeading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.fieldsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.teamDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vs {
+  font-size: 2rem;
+  margin: 3rem 0 1rem 0;
+}
+
+label {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.textFieldCom {
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 0.1rem solid white;
+  padding: 1rem;
+  height: 10rem;
+  width: 30rem;
+  transition: border 0.3s ease-in-out;
+}
+
+.textFieldCom:focus {
+  border: 0.1rem solid red;
+}
+
+.textField {
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border-bottom: 0.1rem solid white;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  width: 30rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.textField:focus {
+  border-bottom: 0.1rem solid red;
+}
+
+.selectField {
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border-bottom: 0.1rem solid white;
+  width: 30rem;
+}
+
+.optionText {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.btnsDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.primaryBtn {
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  margin: 1rem;
+  transition: all 0.2s ease-in;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.secondaryBtn {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  margin: 1rem;
+  transition: all 0.2s ease-in;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  transform: translateX(3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.secondaryBtn:hover {
+  transform: translateX(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.tableDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  border: 1px solid white;
+}
+
+th {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid white;
+  font-size: 2rem;
+  padding: 1rem;
+  color: white;
+}
+
+td {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
