@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/football-match-list/static/css/main.a5434193.css",
+    "main.js": "/football-match-list/static/js/main.b6ac4607.js",
+    "index.html": "/football-match-list/index.html",
+    "main.a5434193.css.map": "/football-match-list/static/css/main.a5434193.css.map",
+    "main.b6ac4607.js.map": "/football-match-list/static/js/main.b6ac4607.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5434193.css",
+    "static/js/main.b6ac4607.js"
+  ]
+}
